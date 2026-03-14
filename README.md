@@ -12,11 +12,13 @@ Setelah data terkumpul, program melakukan inisialisasi dua variabel penghitung, 
 
 **3. Bagian Penampilan Statistik Dasar**
 
-Pada bagian ini, program bertujuan menampilkan ringkasan statistik dari data yang telah diinputkan menggunakan enam perintah print. Kode ini mencoba menampilkan isi list lengkap, nilai maksimal menggunakan fungsi max(), nilai minimal dengan min(), serta menghitung rata-rata dengan membagi total jumlah (sum()) dengan banyaknya data (len()). Terakhir, program mencetak hasil akhir jumlah mahasiswa yang lulus dan tidak lulus. Perlu dicatat bahwa pada kode asli, sintaks penulisan print kurang tepat karena variabel diletakkan setelah koma di dalam tanda kutip string biasa, sehingga yang tercetak di layar hanyalah teks literal nama variabelnya, bukan nilai aktualnya; seharusnya digunakan f-string atau pemisahan argumen yang benar agar nilai numerik muncul di layar.
+Pada bagian ini, program bertujuan menampilkan ringkasan statistik dari data yang telah diinputkan menggunakan enam perintah print. Kode ini mencoba menampilkan isi list lengkap, nilai maksimal menggunakan fungsi max(), nilai minimal dengan min(), serta menghitung rata-rata dengan membagi total jumlah (sum()) dengan banyaknya data (len()). Terakhir, program mencetak hasil akhir jumlah mahasiswa yang lulus dan tidak lulus. Perlu dicatat bahwa pada kode asli, sintaks penulisan print kurang tepat karena variabel diletakkan setelah koma di dalam tanda kutip string biasa, sehingga yang tercetak di layar hanyalah teks literal nama variabelnya, bukan nilai aktualnya; seharusnya digunakan f-string atau pemisahan argumen yang benar agar nilai numerik muncul di layar. 
+![alt text]( https://github.com/algiantara3-ops/Structur-DataD-Pertemuan1/blob/main/foto/download%20(1).png?raw=true) 
 
 **4. Bagian Visualisasi Grafik Kelulusan**
 
 Untuk visualisasi data, program mengimpor pustaka matplotlib.pyplot dengan alias plt yang merupakan standar library grafik di Python. Program membuat sebuah figur baru dan mendefinisikan dua list: kategori yang berisi label "Lulus" dan "Tidak_Lulus", serta data yang berisi nilai numerik dari variabel penghitung yang telah dihitung sebelumnya. Fungsi plt.bar() digunakan untuk membuat diagram batang vertikal berdasarkan kategori dan data tersebut. Judul grafik dan label sumbu Y ("Jumlah Mahasiswa") ditambahkan untuk memberikan konteks visual, dan akhirnya fungsi plt.show() dipanggil untuk merender dan menampilkan jendela grafik interaktif kepada pengguna sehingga distribusi kelulusan dapat dilihat secara visual.
+![alt text](?raw=true) 
 
 **5. Bagian Visualisasi Grafik Nilai Ekstrem**
 
