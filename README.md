@@ -8,6 +8,7 @@ Kode dimulai dengan inisialisasi variabel nilai_mahasiswa sebagai list kosong ya
 **2. Bagian Logika Perhitungan Lulus Dan Tidak Lulus**
 
 Setelah data terkumpul, program melakukan inisialisasi dua variabel penghitung, yaitu lulus dan tidak_lulus, yang keduanya diatur bernilai nol. Program kemudian memasuki loop kedua untuk mengiterasi setiap elemen n di dalam list nilai_mahasiswa. Di sini terdapat logika kondisional if yang memeriksa apakah nilai n lebih besar atau sama dengan 60; jika kondisi ini terpenuhi, variabel lulus akan bertambah satu. Namun, terdapat kesalahan logika pada penulisan kode asli di mana kata kunci else ditempatkan sejajar dengan for (yang berarti blok else hanya dijalankan setelah loop selesai, bukan untuk setiap elemen), padahal seharusnya else tersebut harus memiliki indentasi yang sama dengan if agar berfungsi sebagai pasangan logika "jika tidak lulus maka tambah hitungan tidak_lulus" untuk setiap siswa secara individual
+![alt text](https://github.com/algiantara3-ops/Structur-DataD-Pertemuan1/blob/main/foto/download.png?raw=true) 
 
 **3. Bagian Penampilan Statistik Dasar**
 
