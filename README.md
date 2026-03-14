@@ -3,6 +3,7 @@
 **1. Bagian Input Data dan Inisialisasi List**
 
 Kode dimulai dengan inisialisasi variabel nilai_mahasiswa sebagai list kosong yang berfungsi sebagai wadah penyimpanan data. Selanjutnya, terdapat struktur perulangan for yang berjalan sebanyak 10 kali (dari indeks 0 hingga 9) menggunakan fungsi range(10). Di dalam setiap iterasi, program meminta pengguna memasukkan nilai integer melalui fungsi input() yang disertai pesan dinamis menunjukkan urutan mahasiswa ke-berapa. Nilai yang dimasukkan kemudian dikonversi menjadi tipe data integer menggunakan int() dan langsung ditambahkan ke dalam list nilai_mahasiswa menggunakan metode .append(). Proses ini memastikan bahwa sepuluh nilai input dari pengguna tersimpan secara berurutan dalam satu struktur data array untuk diproses pada tahap selanjutnya.
+![alt text](https://github.com/algiantara3-ops/Structur-DataD-Pertemuan1/blob/main/foto/Screenshot%202026-03-11%20232913.png?raw=true)
 
 **2. Bagian Logika Perhitungan Lulus Dan Tidak Lulus**
 
