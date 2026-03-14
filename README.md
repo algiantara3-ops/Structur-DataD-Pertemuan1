@@ -25,7 +25,9 @@ Untuk visualisasi data, program mengimpor pustaka matplotlib.pyplot dengan alias
 **5. Bagian Visualisasi Grafik Nilai Ekstrem**
 
 Bagian terakhir kode melakukan proses serupa untuk memvisualisasikan perbandingan nilai tertinggi dan terendah. Setelah mengimpor ulang library (meskipun sebenarnya cukup dilakukan sekali di awal), program membuat figur baru dan menyiapkan kategori "Tertinggi" dan "Terendah". Nilai untuk data diambil secara dinamis menggunakan fungsi max(nilai_mahasiswa) dan min(nilai_mahasiswa) yang disimpan dalam variabel terpisah sebelum dimasukkan ke dalam list data. Diagram batang dibuat kembali dengan plt.bar(), dilengkapi dengan judul "Grafik Nilai Tertinggi dan Terendah" serta label sumbu Y "Nilai". Fungsi plt.show() kemudian dieksekusi untuk menampilkan grafik kedua ini, memberikan gambaran visual mengenai rentang atau sebaran ekstrem dari performa mahasiswa dalam kelas tersebut.
+![alt text](https://github.com/algiantara3-ops/Structur-DataD-Pertemuan1/blob/main/foto/download%20(4).png?raw=true)
 
+![alt text](
 **6. Analisis Kompleksitas**
 
 Dari segi kinerja algoritma, kode ini memiliki kompleksitas waktu atau Time Complexity sebesar O(n), yang bersifat linear terhadap jumlah data mahasiswa. Hal ini terjadi karena program melakukan iterasi sebanyak beberapa kali sepanjang daftar nilai, yaitu saat proses input data, saat menghitung jumlah siswa lulus dan tidak lulus, serta saat fungsi bawaan seperti max(), min(), dan sum() memindai seluruh elemen list untuk menghitung statistik. Meskipun terdapat beberapa loop dan fungsi statistik, karena tidak ada loop bersarang (nested loop), kompleksitasnya tetap linear. Untuk kompleksitas ruang atau Space Complexity, kode ini juga membutuhkan O(n) karena seluruh nilai input harus disimpan dalam memori komputer melalui list nilai_mahasiswa sebelum dapat diproses lebih lanjut atau divisualisasikan.
