@@ -20,7 +20,7 @@ Pada bagian ini, program bertujuan menampilkan ringkasan statistik dari data yan
 Untuk visualisasi data, program mengimpor pustaka matplotlib.pyplot dengan alias plt yang merupakan standar library grafik di Python. Program membuat sebuah figur baru dan mendefinisikan dua list: kategori yang berisi label "Lulus" dan "Tidak_Lulus", serta data yang berisi nilai numerik dari variabel penghitung yang telah dihitung sebelumnya. Fungsi plt.bar() digunakan untuk membuat diagram batang vertikal berdasarkan kategori dan data tersebut. Judul grafik dan label sumbu Y ("Jumlah Mahasiswa") ditambahkan untuk memberikan konteks visual, dan akhirnya fungsi plt.show() dipanggil untuk merender dan menampilkan jendela grafik interaktif kepada pengguna sehingga distribusi kelulusan dapat dilihat secara visual.
 ![alt text](https://github.com/algiantara3-ops/Structur-DataD-Pertemuan1/blob/main/foto/download%20(2).png?raw=true) 
 
-[alt text](https://github.com/algiantara3-ops/Structur-DataD-Pertemuan1/blob/main/foto/download%20(3).png?raw=true) 
+![alt text](https://github.com/algiantara3-ops/Structur-DataD-Pertemuan1/blob/main/foto/download%20(3).png?raw=true) 
 
 **5. Bagian Visualisasi Grafik Nilai Ekstrem**
 
